@@ -1,10 +1,9 @@
 {
   "headers":{
-    "login":{
-      "X-Author":"xid1337 Hello World!",
-      "Access-Control-Allow-Origin":"*" 
-    }
-    
+    "/*":{
+      "X-Author":"xid1337",
+      "Access-Control-Allow-Origin":"*"      
+    }   
   }
 
 
