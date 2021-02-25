@@ -1,9 +1,5 @@
 {
-    "headers":{
-        "/*":{
-          "X-Author":"xid1337",
-          "Access-Control-Allow-Origin":"*",  
-          "Content-Type": "text/plain; charset=UTF-8" 
-        }   
-      }
+    "login":{
+      "user":"xid1337"
+    }
 }
