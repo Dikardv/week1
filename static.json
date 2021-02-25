@@ -2,9 +2,7 @@
   "headers":{
     "/*":{
       "X-Author":"xid1337",
-      "Access-Control-Allow-Origin":"*",
-      "/login/":"Hello world"
-      
+      "Access-Control-Allow-Origin":"*"      
     }
   }
 
