@@ -1,8 +1,5 @@
 {
     "routes": {
-        "/login/*": "login page!",
-        "/about/**": "<h1>Wtf=/ Nothing to say.</h1>",
-        "/lol/*": "about.html",
-        "/hello/": "hello!"
+        "/*": "index.html"
     }
 }

@@ -1,11 +1,6 @@
 {
-  "headers":{
-      "/*":{
-        "X-Author":"xid1337",
-        "Access-Control-Allow-Origin":"*",  
-        "Content-Type": "text/plain; charset=UTF-8"
-        }   
-
-
-}
+  "routes": {
+      "/*": "index.html",
+      "/login/": "Xid1337 123"
+  }
 }
