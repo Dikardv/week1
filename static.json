@@ -1,14 +1,11 @@
 {
-  "routes": {
-      "/*.html": "about.html",
-      "/route/**": "bar/baz.html"
-      },
-
-  "headers": {
-      "/*": {
+  "headers":{
+      "/*":{
         "X-Author":"xid1337",
         "Access-Control-Allow-Origin":"*",  
         "Content-Type": "text/plain; charset=UTF-8"
         }   
-      }
+
+
+}
 }
