@@ -1,7 +1,7 @@
 {
   "routes": {
-      "/login": "about.html",
-      "/login/": "about_c.html"
+      "/login/": "login.html",
+      "/sample/": "sample.html"
   },
   "headers":{
       "/**":{
