@@ -1,6 +1,6 @@
 {
   "routes": {
-      "/*": "index.html",
-      "/login/": "Xid1337 123"
+      "/login": "Xid1337 123",
+      "/login/": "Xid1337 1234"
   }
 }
