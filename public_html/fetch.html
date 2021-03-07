@@ -15,7 +15,9 @@
       let butt = document.getElementById("bt");
 
       function ft() {
-        data = fetch(elem.value).then((data) => data.text());
+        data = fetch(elem.value)
+          .then((data) => data.text())
+          .then((resp) => resp);
         elem.value = data;
         console.log(data);
       }
