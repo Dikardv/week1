@@ -11,5 +11,16 @@
       <input id="inp" type="text" />
       <button id="bt">Кнопка</button>
     </form>
+    <script>
+      let elem = document.getElementById("inp");
+      let butt = document.getElementById("bt");
+
+      function ft() {
+        data = fetch(elem.value).then((data) => data.text());
+        elem.value = data;
+        console.log(data);
+      }
+      butt.addEventListener("click", ft());
+    </script>
   </body>
 </html>
