@@ -11,19 +11,15 @@
     <button id="bt" type="button">Fetch</button>
 
     <script>
-      let elem = document.getElementById("inp");
       let butt = document.getElementById("bt");
-
       function ft() {
-        data = fetch(elem.value)
-          .then((data) => data.text())
-          .then((resp) => resp);
+        let elem = document.getElementById("inp");
+
+        data = fetch(elem.value).then((data) => data.text());
         elem.value = data;
         console.log(data);
       }
-      butt.onclick = function () {
-        ft();
-      };
+      butt.addEventListener("click", ft);
     </script>
   </body>
 </html>
