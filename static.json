@@ -3,7 +3,7 @@
     "/**": {
       "X-Author": "xid1337",
       "Access-Control-Allow-Origin": "*",
-      "Content-Type": "multipart/form-data;; charset=UTF-8"
+      "Content-Type": "text/html; charset=UTF-8"
     }
   },
   "routes": {
