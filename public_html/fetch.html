@@ -20,7 +20,9 @@
         elem.value = data;
         console.log(data);
       }
-      butt.addEventListener("click", ft);
+      butt.onclick = function () {
+        ft();
+      };
     </script>
   </body>
 </html>
