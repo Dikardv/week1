@@ -14,10 +14,12 @@
       let butt = document.getElementById("bt");
       function ft() {
         let elem = document.getElementById("inp");
-
-        data = fetch(elem.value).then((data) => data.text());
-        elem.value = data;
-        console.log(data);
+        fetch(elem.value).then((data) => {
+          data.text().then((data2) => {
+            elem.value = data2;
+            console.log(data2);
+          });
+        });
       }
       butt.addEventListener("click", ft);
     </script>
