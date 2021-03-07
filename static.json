@@ -3,6 +3,9 @@
     "/**": {
       "X-Author": "xid1337",
       "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/fetch/": {
       "Content-Type": "text/html; charset=UTF-8"
     }
   },
